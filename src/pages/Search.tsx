@@ -72,7 +72,7 @@ export default function Search() {
   const [searchEnabled, setSearchEnabled] = useState(false);
   // const { data: judges } = useJudges()
 
-  console.log("searchEnabled", searchEnabled);
+  console.log("searchEnabled222", searchEnabled);
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     setSearchEnabled(true);
